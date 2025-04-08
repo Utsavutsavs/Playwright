@@ -1,6 +1,6 @@
-const {test, expect} = require ('@playwright/test')
+import {test, expect} from  '@playwright/test'
 
-test('First Test case',async({browser,page})=>{
+test('First Test case',async({page})=>{
 
 // const launchbrowser = browser.newContext();
 // const page = await launchbrowser.newPage();
